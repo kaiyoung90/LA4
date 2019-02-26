@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment 4</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+        body,
+        html {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* .box-shadow {
+            ctrl /  to comment
+        } */
+
+        .main-container-grid {
+            display: grid;
+            grid-template-rows: 1fr 13fr 1fr;
+            height: 100%;
+            grid-row-gap: 1em;
+        }
+
+        .r1,
+        .r3 {
+            background-color: #ccc;
+            padding: 1em;
+            align-self: center;
+        }
+
+        .r2 {
+            height: 100%;
+            background-color: #f1f1f1;
+        }
+
+        .r3 {
+            text-align: center;
+        }
+
+        .three-column {
+            display: grid;
+            grid-template-columns: 2fr 8fr 3fr;
+            background-color: #fff;
+            grid-column-gap: 1em;
+        }
+
+        .c1 {
+            min-width: 200px;
+        }
+
+        .c1,
+        .c3 {
+            background-color: #f4f4f4;
+        }
+
+        .txt-center {
+            text-align: center;
+            margin: 15px auto;
+            border-bottom: 1px solid #a8a7a7;
+            padding-bottom:
+        }
+
+        .left-nav {
+            list-style-type: none;
+        }
+
+        .left-nav>li>a {
+            display: block;
+            padding: 15px 0px 15px 30px;
+            background-color: #ccc;
+            font-weight: bold;
+            text-decoration: none;
+            transition-duration: 0.7s;
+        }
+
+        .left-nav>li>a:hover {
+            background-color: #a8a7a7;
+        }
+
+        .c2 {
+            padding: 40px 20%;
+            height: 100%;
+        }
+
+        .h2-content {
+            grid-column: 1 / 5;
+            height: 21px;
+            width: 100%;
+        }
+
+        .c2>img {
+            width: 100%;
+            align-self: center;
+            max-height: 150px;
+        }
+    </style>
+</head>
+
+<body class="main-container-grid">
+    <div class="r1">
+        <h2>Kai Young</h2>
+    </div>
+    <div class="c2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur neque at elit consectetur varius.
+            Aliquam vel eleifend augue, vitae tristique justo. Nunc feugiat magna a suscipit maximus. Nulla blandit id
+            diam ut tincidunt. Nam sapien lacus, hendrerit a ultricies sit amet, laoreet ut ante. Nam blandit magna
+            convallis, aliquam magna vel, consectetur metus. Integer vestibulum quis lacus non posuere.
+        </p>
+        <p>
+            Etiam gravida urna nec efficitur laoreet. Maecenas suscipit dapibus lorem ut dignissim. Etiam egestas massa
+            quis consectetur dapibus. Integer ac leo at nulla dictum pellentesque. Morbi ac odio viverra, condimentum
+            nibh a, porttitor velit. Integer ac egestas tellus, efficitur fringilla mauris. Proin congue, nibh at semper
+            rhoncus, massa odio scelerisque eros, vitae pretium diam risus vel diam.
+        </p>
+        <p>
+            Sed eget tristique ligula. Donec sit amet magna congue, pretium ligula eu, eleifend nisi. Aenean nec mollis
+            nunc, vel facilisis eros. Vivamus scelerisque arcu vehicula, viverra quam eu, rhoncus ipsum. Fusce congue
+            lorem non dolor dictum, sed pharetra eros ullamcorper. Aliquam erat volutpat. Etiam a arcu eget nisl viverra
+            elementum. Sed arcu tellus, pellentesque in nunc nec, malesuada placerat orci. Vestibulum tempor non neque
+            varius rhoncus. Sed blandit venenatis vestibulum. Quisque dapibus eu nibh quis ullamcorper. Praesent
+            ullamcorper lorem at felis mattis, eu laoreet magna dictum. Praesent commodo blandit enim nec euismod. Fusce
+            nec posuere est.
+        </p>
+    </div>
+    </div>
+    <div class="r3">
+        Copyright 2019. Created by Kai Young
+    </div>
+</body>
+
+</html>
