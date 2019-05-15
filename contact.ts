@@ -10,4 +10,4 @@ class Contact {
 
 }
 
-const Contact = new Contact();
+const contact = new Contact();
